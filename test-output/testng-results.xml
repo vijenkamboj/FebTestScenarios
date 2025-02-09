@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-09T17:50:52 IST" name="Default suite" finished-at="2025-02-09T17:50:54 IST" duration-ms="2436">
+    <groups>
+    </groups>
+    <test started-at="2025-02-09T17:50:52 IST" name="Default test" finished-at="2025-02-09T17:50:54 IST" duration-ms="2436">
+      <class name="StartFeb.NewFeb.BitCoinRestApiTestFeb">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:StartFeb.NewFeb.BitCoinRestApiTestFeb@10b892d5]" started-at="2025-02-09T17:50:52 IST" name="Setup" finished-at="2025-02-09T17:50:52 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="BitCoinLogAllInfo()[pri:0, instance:StartFeb.NewFeb.BitCoinRestApiTestFeb@10b892d5]" started-at="2025-02-09T17:50:52 IST" name="BitCoinLogAllInfo" finished-at="2025-02-09T17:50:53 IST" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BitCoinLogAllInfo -->
+        <test-method signature="BitCoinResponseTime()[pri:0, instance:StartFeb.NewFeb.BitCoinRestApiTestFeb@10b892d5]" started-at="2025-02-09T17:50:53 IST" name="BitCoinResponseTime" finished-at="2025-02-09T17:50:53 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BitCoinResponseTime -->
+        <test-method signature="GBPDescription()[pri:0, instance:StartFeb.NewFeb.BitCoinRestApiTestFeb@10b892d5]" started-at="2025-02-09T17:50:53 IST" name="GBPDescription" finished-at="2025-02-09T17:50:54 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GBPDescription -->
+        <test-method signature="SendGetRequest()[pri:0, instance:StartFeb.NewFeb.BitCoinRestApiTestFeb@10b892d5]" started-at="2025-02-09T17:50:54 IST" name="SendGetRequest" finished-at="2025-02-09T17:50:54 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendGetRequest -->
+        <test-method signature="VerifyResponseForCurrency()[pri:0, instance:StartFeb.NewFeb.BitCoinRestApiTestFeb@10b892d5]" started-at="2025-02-09T17:50:54 IST" name="VerifyResponseForCurrency" finished-at="2025-02-09T17:50:54 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyResponseForCurrency -->
+      </class> <!-- StartFeb.NewFeb.BitCoinRestApiTestFeb -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
