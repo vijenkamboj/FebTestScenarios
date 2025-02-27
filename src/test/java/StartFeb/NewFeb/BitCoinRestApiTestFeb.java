@@ -22,8 +22,10 @@ public class BitCoinRestApiTestFeb {
 
 	@Test
 	public void SendGetRequest() {
-		RestAssured.baseURI = "https://api.coindesk.com/v1/bpi/currentprice.json";
-		RequestSpecification rSpec = RestAssured.given();
+		
+		  RestAssured.baseURI = "https://api.coindesk.com/v1/bpi/currentprice.json";
+		  RequestSpecification rSpec = RestAssured.given();
+		 
 		Response response = rSpec.request(Method.GET).then().extract().response();
 		int statuscode = response.getStatusCode();
 		System.out.println(statuscode);
